@@ -8,6 +8,10 @@ function showSequenceOne() {
     image1.src = "images/concerned.jpg";
     image2.src = "images/happy.jpg";
     image3.src = "images/phone.jpg";
+
+    caption1.textContent = "She anxiously holds her phone as it rings, unsure of what the call will bring.";
+    caption2.textContent = "She puts her worries aside, and celebrates someone else's good news.";
+    caption3.textContent = "When the call ends, she is left questioning her own life achievements and lack of self-esteem.";
 }
 
 function showSequenceTwo() {
@@ -15,6 +19,10 @@ function showSequenceTwo() {
     image1.src = "images/phone.jpg";
     image2.src = "images/concerned.jpg";
     image3.src = "images/happy.jpg";
+
+    caption1.textContent = "She waits nervously for an important call.";
+    caption2.textContent = "Her phone finally rings, and she quickly picks it up.";
+    caption3.textContent = "She hears the news she's been hoping for: the surgery was successful.";
 }
 
 let btn1 = document.getElementById("sequence-one");
