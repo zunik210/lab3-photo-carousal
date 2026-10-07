@@ -2,27 +2,42 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 30px;
+    background-color: #f4eee8;
+    color: #333333;
 }
 
 h1 {
     font-size: 40px;
+    color: #5c3d2e;
 }
 
 h2 {
     font-size: 28px;
+    color: #765548
 }
 
 img {
     margin: 5px;
+    border-radius: 10px;
+
 }
 
 p {
     width: 700px;
     margin: 20px auto;
+    line-height: 1.5;
 }
 
 button {
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
+    background-color: #765548;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #5c3d2e;
 }
